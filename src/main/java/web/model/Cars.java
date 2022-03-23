@@ -16,24 +16,12 @@ public class Cars {
         return model;
     }
 
-    public void setModel(String model) {
-        this.model = model;
-    }
-
     public String getEngine() {
         return engine;
     }
 
-    public void setEngine(String engine) {
-        this.engine = engine;
-    }
-
     public int getStateNumber() {
         return stateNumber;
-    }
-
-    public void setStateNumber(int stateNumber) {
-        this.stateNumber = stateNumber;
     }
 
     @Override
